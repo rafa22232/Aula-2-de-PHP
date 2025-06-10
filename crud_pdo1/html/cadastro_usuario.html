@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <div class="container-principal">
+        <div class="container-formulario">
+            <h1>Cadastro de Usuário</h1>
+            <form method="POST" action="../php/UsuarioController.php">
+                <input type="email" name="emailFormulario" placeholder="email:"/>
+                <input type="text" name="nomeFormulario" placeholder="nome:"/>
+                <input type="password" name="senhaFormulario" placeholder="senha:"/>
+                
+                  <!--CRUD-->
+                 <input type="text" name="requisicao" placeholder="Atualizar: ">
+                 <input type="text" name="requisicao" placeholder="Cadastrar: ">
+                 <input type="text" name="requisicao" placeholder="Consultar: ">
+                 <input type="text" name="requisicao" placeholder="Remover:   ">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
